@@ -20,7 +20,7 @@ use Spatie\Permission\Traits\HasRoles;
  * @property string $email
  * @property Carbon $created_at
  */
-class User extends Authenticatable
+class User extends Authenticatable implements MustVerifyEmail
 {
     use HasApiTokens;
     use HasFactory;
