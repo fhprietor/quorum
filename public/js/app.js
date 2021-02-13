@@ -36135,7 +36135,7 @@ var render = function() {
         { staticClass: "border-t w-px" },
         [
           !_vm.question.deleted_at &&
-          _vm.$permissions.can([{ name: "votar questions" }])
+          !_vm.$permissions.can([{ name: "actualizar questions" }])
             ? _c(
                 "inertia-link",
                 {
