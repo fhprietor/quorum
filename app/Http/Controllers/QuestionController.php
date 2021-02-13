@@ -21,7 +21,7 @@ class QuestionController extends Controller
         return Inertia::render("Questions/Index",[
             "filters" => session()->only(["search","trashed"]),
             "questions" => Question::on()
-                ->orderByDesc("id")
+                ->orderBy("id")
                 ->paginate(5),
         ]);
     }

@@ -11,27 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd6aaf89-23b6-46ca-9017-50f00a4dbfd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Policies/QuestionPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Components/LoadingButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Components/Pagination.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Components/Question.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Components/QuestionForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Components/TextAreaInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Mixings/FormInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Questions/Create.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Questions/Edit.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Questions/Index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Questions/Vote.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/PermissionSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/PermissionSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Components/Backend/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Components/Backend/Sidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +192,7 @@
       <workItem from="1613014530784" duration="1933000" />
       <workItem from="1613040731716" duration="3012000" />
       <workItem from="1613085090293" duration="11624000" />
-      <workItem from="1613177359713" duration="28086000" />
+      <workItem from="1613177359713" duration="28979000" />
     </task>
     <servers />
   </component>
