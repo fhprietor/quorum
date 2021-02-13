@@ -2223,8 +2223,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Question",
   props: {
@@ -36134,17 +36132,14 @@ var render = function() {
         "td",
         { staticClass: "border-t w-px" },
         [
-          !_vm.question.deleted_at &&
-          !_vm.$permissions.can([{ name: "actualizar questions" }])
-            ? _c(
-                "inertia-link",
-                {
-                  staticClass:
-                    "text-xs px-4 py-2 rounded-full bg-red-200 hover:bg-hp-400 hover:text-black text-gray-800 inline-flex items-center"
-                },
-                [_vm._v("\n            Votar\n        ")]
-              )
-            : _vm._e()
+          _c(
+            "inertia-link",
+            {
+              staticClass:
+                "text-xs px-4 py-2 rounded-full bg-red-200 hover:bg-hp-400 hover:text-black text-gray-800 inline-flex items-center"
+            },
+            [_vm._v("\n            Votar\n        ")]
+          )
         ],
         1
       )

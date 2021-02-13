@@ -26,8 +26,6 @@
         <td class="border-t w-px">
             <inertia-link
                 class="text-xs px-4 py-2 rounded-full bg-red-200 hover:bg-hp-400 hover:text-black text-gray-800 inline-flex items-center"
-
-                v-if="!question.deleted_at && !$permissions.can([{name: 'actualizar questions'} ])"
             >
                 Votar
             </inertia-link>
