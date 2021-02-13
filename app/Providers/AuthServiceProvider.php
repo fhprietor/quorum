@@ -2,7 +2,9 @@
 
 namespace App\Providers;
 
+use App\Models\Question;
 use App\Models\Reunion;
+use App\Policies\QuestionPolicy;
 use App\Policies\ReunionPolicy;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
@@ -17,6 +19,7 @@ class AuthServiceProvider extends ServiceProvider
     protected $policies = [
         // 'App\Models\Model' => 'App\Policies\ModelPolicy',
         Reunion::class => ReunionPolicy::class,
+      //  Question::class => QuestionPolicy::class,
     ];
 
     /**

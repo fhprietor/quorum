@@ -10,7 +10,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd6aaf89-23b6-46ca-9017-50f00a4dbfd3" name="Default Changelist" comment="" />
+    <list default="true" id="bd6aaf89-23b6-46ca-9017-50f00a4dbfd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Policies/QuestionPolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Components/LoadingButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Components/Pagination.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Components/Question.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Components/QuestionForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Components/TextAreaInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Mixings/FormInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Questions/Create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Questions/Edit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Questions/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Questions/Vote.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/PermissionSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/PermissionSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Components/Backend/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Components/Backend/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +43,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/quorum" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -157,8 +179,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Cursos\CursosDesarrolloWeb.es\laravel8\quorum\resources\js\Components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Cursos\CursosDesarrolloWeb.es\laravel8\quorum\resources\js" />
       <recent name="D:\Cursos\CursosDesarrolloWeb.es\laravel8\quorum\app\Http\Controllers" />
@@ -184,7 +210,8 @@
       <workItem from="1613007838269" duration="4712000" />
       <workItem from="1613014530784" duration="1933000" />
       <workItem from="1613040731716" duration="3012000" />
-      <workItem from="1613085090293" duration="8995000" />
+      <workItem from="1613085090293" duration="11624000" />
+      <workItem from="1613177359713" duration="28086000" />
     </task>
     <servers />
   </component>
@@ -201,15 +228,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1622" y="369" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613008526460">
+    <state x="1637" y="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613197649936">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1622" y="369" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1613008526460" />
-    <state x="1597" y="330" width="612" height="566" key="find.popup" timestamp="1613097816954">
+    <state x="1637" y="403" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1613197649936" />
+    <state x="1622" y="369" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613198438725">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1597" y="330" width="612" height="566" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1613097816954" />
+    <state x="1622" y="369" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1613198438725" />
+    <state x="1597" y="330" width="612" height="566" key="find.popup" timestamp="1613206549690">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1597" y="330" width="612" height="566" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1613206549690" />
   </component>
 </project>

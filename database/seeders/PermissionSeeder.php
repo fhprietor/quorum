@@ -16,6 +16,14 @@ class PermissionSeeder extends Seeder
      */
     public function run()
     {
+        $observerRole = Role::create(['name'=>'Observer']);
+        $observer = User::factory()->create([
+            'name' => 'observer',
+            'email' => 'observer@quorumenlinea.com',
+            'password' => bcrypt('password'),
+        ]);
+        $observer->assignRole($observerRole);
+
         $superAdminRole = Role::create(['name' => 'Super-Admin']);
         $superAdmin = User::factory()->create([
            'name' => 'superadmin',
@@ -40,14 +48,6 @@ class PermissionSeeder extends Seeder
         ]);
         $participant->assignRole($participantRole);
 
-        $observerRole = Role::create(['name'=>'Observer']);
-        $observer = User::factory()->create([
-            'name' => 'observer',
-            'email' => 'observer@quorumenlinea.com',
-            'password' => bcrypt('password'),
-        ]);
-        $observer->assignRole($observerRole);
-
         Permission::create(['name' => 'listar reuniones']);
         Permission::create(['name' => 'crear reuniones']);
         Permission::create(['name' => 'mostrar reuniones']);
@@ -55,15 +55,21 @@ class PermissionSeeder extends Seeder
         Permission::create(['name' => 'borrar reuniones']);
         Permission::create(['name' => 'restaurar reuniones']);
         Permission::create(['name' => 'operar reunion']);
-        Permission::create(['name' => 'participar reunion']);
+        Permission::create(['name' => 'votar questions']);
         Permission::create(['name' => 'observar reunion']);
         Permission::create(['name' => 'ver votaciones']);
 
+        Permission::create(['name' => 'listar questions']);
+        Permission::create(['name' => 'crear questions']);
+        Permission::create(['name' => 'mostrar questions']);
+        Permission::create(['name' => 'actualizar questions']);
+        Permission::create(['name' => 'borrar questions']);
+
         $moderator->givePermissionTo([
-            'listar reuniones','crear reuniones','mostrar reuniones', 'actualizar reuniones', 'borrar reuniones'
+            'listar questions','crear questions','mostrar questions', 'actualizar questions', 'borrar questions'
         ]);
         $participant->givePermissionTo([
-           'participar reunion' , 'ver votaciones'
+           'votar questions' , 'ver votaciones'
         ]);
         $observer->givePermissionTo([
             'observar reunion' , 'ver votaciones'
